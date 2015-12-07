@@ -1,2 +1,2 @@
-# apache2 on debian:latest
+# apache2 on debian:jessie
 
