@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:jessie
 MAINTAINER Tyler Hoadley "tyler.hoadley@empire.ca"
 RUN apt-get update
 RUN apt-get install -y apache2
