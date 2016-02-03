@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER tyler.hoadley[AT]computersthatwork[DOT]ca
 RUN apt-get update
 RUN apt-get install -y apache2
