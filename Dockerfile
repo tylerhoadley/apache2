@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Tyler Hoadley "tyler.hoadley@empire.ca"
+MAINTAINER tyler.hoadley[AT]computersthatwork[DOT]ca
 RUN apt-get update
 RUN apt-get install -y apache2 && source /etc/apache2/envvars
 ENV APACHE_RUN_USER www-data
